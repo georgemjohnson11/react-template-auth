@@ -1,9 +1,8 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import './Header.css'
 import Title from './Title';
 
-function Header()
+function                                                                   Header()
   {
     return (
         <div class="jumbotron text-center">

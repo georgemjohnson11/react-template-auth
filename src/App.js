@@ -1,19 +1,18 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import Title from './Title';
-import Footer from './Footer';
-import Header from './Header';
+import React, { Component, Fragment } from "react";
+import Header from "./components/Header";
+import Footer from "./components/Footer"
+import Home from "./components/Home";
 
-
-function App() {
-  return (
-    <div className="App">
-      <Header />
-      <img src={logo} alt={Title} />
-      <Footer />
-    </div>
-  );
+class App extends Component {
+  render() {
+    return (
+      <Fragment>
+        <Header />
+        <Home />
+        <Footer />
+      </Fragment>
+    );
+  }
 }
 
 export default App;
